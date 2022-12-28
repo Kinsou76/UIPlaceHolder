@@ -21,10 +21,19 @@
         background-image: linear-gradient(to bottom, red, pink);
         transition: all 15s ease-out;
     }
+
+    .bordure{
+        height: 100%;
+        width: 75%;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        background-image: linear-gradient(to bottom, antiquewhite, pink);
+    }
 </style>
 
 <root>
     <div class="fill" style="width: @(Healthlost())%"></div>
+    <div class="bordure" style="width: @(Healthlost())%"></div>
 </root>
 
 
